@@ -1,0 +1,30 @@
+@import "global/style.scss";
+
+.productList-table {
+  table-layout: fixed;
+  word-wrap: break-word;
+
+  .name,
+  .color {
+    color: $primary-color !important;
+  }
+
+  .productlist-image {
+    width: 40px;
+  }
+}
+
+.list-action {
+  &-input {
+    max-width: 75px;
+  }
+
+  &-addtocartBtn {
+    background-color: $button-color !important;
+    border: none;
+
+    img {
+      width: 25px;
+    }
+  }
+}

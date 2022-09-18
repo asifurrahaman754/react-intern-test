@@ -1,0 +1,14 @@
+@import "global/style.scss";
+
+.addtocartBtn {
+  background-color: $primary-color !important;
+  border: none;
+
+  a {
+    color: white;
+  }
+
+  :hover {
+    background-color: $primary-color;
+  }
+}

@@ -1,0 +1,14 @@
+@import "global/style.scss";
+
+.reset {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  color: $primary-color;
+
+  img {
+    width: 15px;
+    margin-right: 0.5rem;
+  }
+}
